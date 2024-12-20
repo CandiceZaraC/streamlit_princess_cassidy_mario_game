@@ -1,0 +1,25 @@
+{
+  "name": "mario-game",
+  "version": "1.0.0",
+  "description": "A simple Mario-style game built with TypeScript.",
+  "main": "src/main.ts",
+  "scripts": {
+    "start": "tsc && node dist/main.js",
+    "build": "tsc",
+    "test": "echo \"No tests specified\" && exit 0"
+  },
+  "dependencies": {
+    "typescript": "^4.0.0",
+    "pixi.js": "^6.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^14.0.0",
+    "@types/pixi.js": "^6.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yourusername/mario-game.git"
+  },
+  "author": "Your Name",
+  "license": "MIT"
+}
